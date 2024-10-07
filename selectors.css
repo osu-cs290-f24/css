@@ -1,0 +1,29 @@
+h1 {
+  font-size: 64px;
+}
+
+p {
+  color: salmon;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 18px;
+  background-color: dimgray;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+#site-title {
+  background-color: lavender;
+}
+
+.bold-text.italic-text {
+  background-color: forestgreen;
+}
+
+#special-div p {
+  text-decoration: underline;
+}
