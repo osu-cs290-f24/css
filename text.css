@@ -4,5 +4,20 @@ html {
   /* font-family: sans-serif; */
   /* font-family: monospace; */
   /* font-family: cursive; */
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 900;
+  font-size: 16px;
+  /* font-size: 10vw; */
+  /* font-size: 10vh; */
+  /* color: steelblue; */
+  /* color: rgb(128, 0, 128); */
+  /* color: #329f3e; */
+  color: rgba(128, 0, 128, 0.5);
+  /* background-color: black; */
+}
+
+#site-title {
+  font-size: 3rem;
 }

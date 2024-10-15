@@ -14,6 +14,8 @@ p {
   border: 5px solid #454545;
   border-radius: 20px;
   background-color: #8eda93;
+
+  position: relative;
 }
 
 .inner {
@@ -30,4 +32,28 @@ p {
 
 .inner.unpositioned {
   background-color: #ababab;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 64px;
+  left: 32px;
+}
+
+.absolute {
+  position: absolute;
+  top: 64px;
+  left: 32px;
+}
+
+.fixed {
+  position: fixed;
+  /* top: 64px;
+  left: 32px; */
+  bottom: 64px;
+  right: 32px;
 }
