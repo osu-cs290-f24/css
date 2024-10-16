@@ -14,3 +14,14 @@ p::first-letter {
   font-size: 24px;
   font-family: cursive;
 }
+
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 128px;
+  background-color: teal;
+
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
